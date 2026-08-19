@@ -3,6 +3,10 @@
    <channel>
       <title>Menu</title>
       <item>
+         <title>Welcome</title>
+         <link>rss/welcome.rss</link>
+      </item>
+      <item>
          <title>POI Toolbox</title>
          <link>rss/poi_toolbox.rss</link>
          <description>Collect, filter and share locations</description>

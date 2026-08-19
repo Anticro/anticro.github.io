@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Welcome</title>
+        <item>
+            <title>Welcome</title>
+        </item>
+        <item>
+            <title>You were probably looking for one of these items</title>
+        </item>
+        <item>
+		<enclosure url="rss/images/poi_toolbox.png" type="image/png" />
+		<title>POI Toolbox</title>
+		<description>An app for the outsiders, travelers and adventurers.</description>
+        </item>
+	<item>
+		<description>Tap here or use the menu</description>
+		<link>rss/poi_toolbox.rss</link>
+	</item>
+        <item>
+		<enclosure url="rss/images/chdv.png" type="image/png" />
+		<title>chdv</title>
+		<description>A tool for predicting battery recharge durations.</description>
+        </item>
+	<item>
+		<description>Tap here or use the menu</description>
+		<link>rss/chdv.rss</link>
+	</item>
+        <item>
+		<enclosure url="rss/images/mtu.png" type="image/png" />
+		<title>mtu</title>
+		<description>A tracker to easily record spent time.</description>
+        </item>
+	<item>
+		<description>Tap here or use the menu</description>
+		<link>rss/mtu.rss</link>
+	</item>
+        <item>
+            <title>Privacy info</title>
+            <description>This web page sets no cookies, so it doesn't need a cookie banner.</description>
+        </item>
+    </channel>
+</rss>
