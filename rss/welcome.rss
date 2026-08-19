@@ -12,28 +12,29 @@
 		<enclosure url="rss/images/poi_toolbox.png" type="image/png" />
 		<title>POI Toolbox</title>
 		<description>An app for the outsiders, travelers and adventurers.</description>
-        </item>
-	<item>
-		<description>Tap here or use the menu</description>
 		<link>#1</link>
 	</item>
         <item>
 		<enclosure url="rss/images/chdv.png" type="image/png" />
 		<title>chdv</title>
 		<description>A tool for predicting battery recharge durations.</description>
-        </item>
-	<item>
-		<description>Tap here or use the menu</description>
 		<link>#2</link>
 	</item>
         <item>
 		<enclosure url="rss/images/mtu.png" type="image/png" />
 		<title>mtu</title>
 		<description>A tracker to easily record spent time.</description>
-        </item>
-	<item>
-		<description>Tap here or use the menu</description>
 		<link>#3</link>
+	</item>
+        <item>
+		<title>Privacy information</title>
+		<description>The privacy statement for all my apps</description>
+		<link>#4</link>
+	</item>
+        <item>
+		<title>Imprint</title>
+		<description>Developer information and options for contacting me.</description>
+		<link>#5</link>
 	</item>
         <item>
             <title>Privacy info</title>
