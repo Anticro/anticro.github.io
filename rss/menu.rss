@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+   <channel>
+      <title>Menu</title>
+      <item>
+         <title>POI Toolbox</title>
+         <link>rss/poi_toolbox.rss</link>
+         <description>Collect, filter and share locations</description>
+         <enclosure url="rss/images/poi_toolbox.png" length="269866" type="image/png"></enclosure>
+      </item>
+      <item>
+         <title>chdv</title>
+         <link>rss/chdv.rss</link>
+         <description>Predict battery charing durations</description>
+         <enclosure url="rss/images/chdv.png" length="242754" type="image/png"></enclosure>
+      </item>
+      <item>
+         <title>mtu</title>
+         <link>rss/mtu.rss</link>
+         <description>Time tracking made simple</description>
+         <enclosure url="rss/images/mtu.png" length="735453" type="image/png"></enclosure>
+      </item>
+      <item>
+         <title>Privacy</title>
+         <link>rss/privacy.rss</link>
+      </item>
+      <item>
+         <title>Imprint</title>
+         <link>rss/imprint.rss</link>
+      </item>
+   </channel>
+</rss>

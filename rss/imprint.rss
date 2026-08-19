@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Imprint</title>
+        <item>
+            <title>Imprint</title>
+        </item>
+        <item>
+            <description>
+Klaus Haefner
+96049 Bamberg
+Germany</description>
+        </item>
+        <item>
+            <description>Each of my apps is available as is, in the hope of being meaningful and a useful tool.</description>
+        </item>
+        <item>
+            <description>Email:
+kh_feedback@icloud.com</description>
+            <link>mailto:kh_feedback@icloud.com</link>
+        </item>
+    </channel>
+</rss>

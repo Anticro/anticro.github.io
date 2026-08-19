@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klaus Haefner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header id="site-header">
+            <!-- Lives in the header so it always sits on the dark background -->
+            <button id="expand-btn" class="menu-toggle-btn" title="Open menu" aria-label="Open menu" hidden>&#9776;</button>
+            <img id="header-icon" alt="" hidden>
+            <div id="header-content">
+                <span id="header-title">Klaus Haefner</span>
+                <span id="header-teaser" hidden></span>
+            </div>
+        </header>
+
+        <div id="main">
+            <!-- Semi-transparent backdrop behind menu overlay on narrow viewport -->
+            <div id="menu-backdrop" hidden></div>
+
+            <nav id="menu-panel">
+                <div id="menu-panel-header">
+                    <!-- Shown when menu is manually expanded on narrow viewport -->
+                    <button id="collapse-btn" class="menu-toggle-btn" title="Close menu" aria-label="Close menu" hidden>&#10005;</button>
+                </div>
+                <div id="menu-items"></div>
+            </nav>
+
+            <main id="content-area"></main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

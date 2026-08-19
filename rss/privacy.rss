@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Privacy</title>
+        <item>
+            <title>Privacy Policy</title>
+            <description>In short terms: No data is collected.</description>
+        </item>
+	<item>
+		<description>POI Toolbox, chdv and mtu do not collect any personal data.
+
+Your own location is only used in POI Toolbox to display it on the map or to record a GPX file on your behalf. On pause the GPS tracker saves its work data only locally - on the user's device. There is no automatic cloud upload (which could otherwise expose start/end positions). In other words: "If you reset the tracker without saving your track, it is gone. Gone really means gone."
+
+POI Toolbox, chdv and mtu also do not share any data with any services. There is no attempt to track or monitor the user in any way, neither by ad-trackers, nor with black magic.
+
+Other entered data (POIs, folders, tracker logs, names, ...) is stored in non-encrypted files, which you can find in a subfolder in your iCloud drive documents. You can always make a backup, restore a backup, copy them and import them into another application...
+
+WARNING:
+However, do not modify these files if you are just a little uncertain whether you are doing everything right or have understood the file format perfectly! Even a very simple typo in these files can lead to complete data loss.
+
+Again: "Gone means gone."</description>
+	</item>
+    </channel>
+</rss>
