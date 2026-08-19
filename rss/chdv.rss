@@ -2,9 +2,18 @@
 <rss version="2.0">
     <channel>
         <title>chdv</title>
+	<item>
+		<enclosure url="rss/images/chdv.png" type="image/png" />
+		<title>chdv</title>
+		<link>https://apps.apple.com/app/chdv/id1519205967</link>
+	</item>
         <item>
             <title>A tool for predicting battery recharge durations.</title>
             <description>Coming soon.</description>
+        </item>
+        <item>
+            <description>Privacy info</description>
+            <description>This web page sets no cookies, so it doesn't need a cookie banner.</description>
         </item>
     </channel>
 </rss>

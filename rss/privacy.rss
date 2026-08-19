@@ -20,5 +20,9 @@ However, do not modify these files if you are just a little uncertain whether yo
 
 Again: "Gone means gone."</description>
 	</item>
+        <item>
+            <description>Privacy info</description>
+            <description>This web page sets no cookies, so it doesn't need a cookie banner.</description>
+        </item>
     </channel>
 </rss>

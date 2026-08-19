@@ -2,9 +2,18 @@
 <rss version="2.0">
     <channel>
         <title>mtu</title>
+	<item>
+		<enclosure url="rss/images/mtu.png" type="image/png" />
+		<title>mtu</title>
+		<link>https://apps.apple.com/app/mtu/id1555140468</link>
+	</item>
         <item>
             <title>A tool for easily tracking spent time.</title>
             <description>Details coming soon.</description>
+        </item>
+        <item>
+            <description>Privacy info</description>
+            <description>This web page sets no cookies, so it doesn't need a cookie banner.</description>
         </item>
     </channel>
 </rss>

@@ -19,5 +19,9 @@ Germany</description>
 kh_feedback@icloud.com</description>
             <link>mailto:kh_feedback@icloud.com</link>
         </item>
+        <item>
+            <description>Privacy info</description>
+            <description>This web page sets no cookies, so it doesn't need a cookie banner.</description>
+        </item>
     </channel>
 </rss>
