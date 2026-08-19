@@ -15,7 +15,7 @@
         </item>
 	<item>
 		<description>Tap here or use the menu</description>
-		<link>rss/poi_toolbox.rss</link>
+		<link>#1</link>
 	</item>
         <item>
 		<enclosure url="rss/images/chdv.png" type="image/png" />
@@ -24,7 +24,7 @@
         </item>
 	<item>
 		<description>Tap here or use the menu</description>
-		<link>rss/chdv.rss</link>
+		<link>#2</link>
 	</item>
         <item>
 		<enclosure url="rss/images/mtu.png" type="image/png" />
@@ -33,7 +33,7 @@
         </item>
 	<item>
 		<description>Tap here or use the menu</description>
-		<link>rss/mtu.rss</link>
+		<link>#3</link>
 	</item>
         <item>
             <title>Privacy info</title>

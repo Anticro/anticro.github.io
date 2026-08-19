@@ -354,6 +354,7 @@ html, body {
 }
 
 .content-item.clickable {
+    background: var(--item-hover-bg);
     cursor: var(--item-cursor);
     transition: background 0.15s;
 }
