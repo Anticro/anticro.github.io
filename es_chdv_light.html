@@ -1,0 +1,73 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>chdv</title><link rel="stylesheet" href="css/light.css"><style>
+[hidden] { display:none !important; }
+#site-header { position:fixed; left:0; top:var(--header-h,0); z-index:151; display:flex; align-items:center; padding:8px 12px; }
+.menu-toggle { width:40px; height:40px; background:transparent; border:none; border-radius:6px; font-size:1.2rem; cursor:pointer; display:flex; align-items:center; justify-content:center; color:var(--menu-fg,#1a1a1a); }
+.menu-toggle:hover { background:var(--menu-toggle-hover,rgba(0,0,0,0.1)); }
+#main { display:flex; flex:1; position:relative; min-height:0; }
+#menu-panel { display:flex; flex-direction:column; min-width:0; }
+#menu-panel.collapsed { display:none; }
+#menu-panel.narrow-expanded { position:fixed; left:0; width:fit-content; min-width:0; max-width:100vw; top:var(--header-h,0); bottom:var(--footer-h,0); z-index:150; background:var(--menu-bg,#fff); box-shadow:4px 0 24px rgba(0,0,0,0.6); overflow-y:auto; overflow-x:hidden; animation:menuSlideIn 0.22s ease forwards; }
+#menu-panel.wide-fixed { position:fixed; left:0; width:fit-content; min-width:0; max-width:320px; top:var(--header-h,0); bottom:var(--footer-h,0); z-index:149; background:var(--menu-bg,#fff); border-right:1px solid var(--menu-border,rgba(0,0,0,0.1)); overflow-y:auto; overflow-x:hidden; }
+#main.wide-fixed { padding-left:var(--menu-w,0); }
+#main > main { padding-left:var(--content-left,0); padding-right:var(--content-right,0); }
+#menu-panel-header { display:none; justify-content:flex-end; padding:8px 8px 0; }
+#menu-panel.narrow-expanded #menu-panel-header { display:flex; }
+#menu-backdrop { position:fixed; inset:0; background:var(--menu-backdrop,rgba(0,0,0,0.55)); z-index:149; }
+@keyframes menuSlideIn { from{transform:translateX(-100%);} to{transform:translateX(0);} }
+</style><style>body{margin:0;padding:var(--header-h,0) 0 var(--footer-h,0) 0}</style></head><body class="bg"><div id="page-header" class="stack-horizontal header-bg" style="position:fixed;left:0;right:0;top:0;z-index:100;gap:8px;align-items:center;padding:var(--header-pad-v,0) var(--header-pad-h,0)"><img src="images/chdv.png" alt="" height="48" style="border-radius: 8px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">chdv</p></div><header id="site-header"><button id="expand-btn" class="menu-toggle" title="Open menu" aria-label="Open menu" hidden>&#9776;</button></header><div id="main"><div id="menu-backdrop" hidden></div><nav id="menu-panel" style="gap:4px;padding-left:8px;padding-right:8px;padding-top:8px;padding-bottom:8px;"><div id="menu-panel-header"><button id="collapse-btn" class="menu-toggle" title="Close menu" aria-label="Close menu" hidden>&#10005;</button></div><a href="es_overview_light.html" class="menu-link" style="display:flex;flex-direction:row;padding-left: 4px;padding-right: 4px;padding-top: 4px;padding-bottom: 4px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">Vista general</p></a><a href="es_poi_toolbox_light.html" class="menu-link" style="display:flex;flex-direction:row;gap: 8px;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 0px"><img src="images/poi_toolbox.png" alt="Icono de la app POI Toolbox" height="48" style="border-radius: 8px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">POI Toolbox</p></a><a href="es_chdv_light.html" class="current-menu-link" style="display:flex;flex-direction:row;gap: 8px;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 0px"><img src="images/chdv.png" alt="Icono de la app chdv" height="48" style="border-radius: 8px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">chdv</p></a><a href="es_mtu_light.html" class="menu-link" style="display:flex;flex-direction:row;gap: 8px;padding-left: 8px;padding-right: 8px;padding-top: 8px;padding-bottom: 0px"><img src="images/mtu.png" alt="Icono de la app mtu" height="48" style="border-radius: 8px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">mtu</p></a><a href="es_privacy_light.html" class="menu-link" style="display:flex;flex-direction:row;padding-left: 4px;padding-right: 4px;padding-top: 4px;padding-bottom: 4px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">Privacidad</p></a><a href="es_imprint_light.html" class="menu-link" style="display:flex;flex-direction:row;padding-left: 4px;padding-right: 4px;padding-top: 4px;padding-bottom: 4px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">Aviso legal</p></a><div style="flex:1"></div><a href="mailto:kh_feedback@icloud.com" class="menu-link" style="display:flex;flex-direction:row;padding-left: 4px;padding-right: 4px;padding-top: 4px;padding-bottom: 4px"><p class="text" style="min-height: 48px; display:flex;align-items:center;justify-content:center">Enviar correo electrónico</p></a></nav><main style="display:flex;flex-direction:column;flex:1;min-width:0"><a href="https://apps.apple.com/es/app/chdv/id1519205967"><div class="stack-horizontal" style="overflow-x: auto"><div style="flex:1"></div><img src="images/CHDV.png" alt="Icono de la app chdv" height="128" style="border-radius: 21px"><div style="flex:1"></div></div><h2 class="head align-center">chdv</h2></a><p class="text align-center">Calcula los tiempos de carga de las baterías y crea notificaciones. También le encanta encender y apagar sus enchufes.</p><p class="text"></p><p class="text"></p><p class="text"></p><p class="text"></p><p class="text"><strong>chdv</strong> facilita el control de los dispositivos que se están cargando y calcula cuándo pueden volver a desconectarse del cable. La app es fácil de usar y no requiere conocimientos sobre baterías ni cargadores.</p><p class="text"></p><p class="text">Empezar es fácil: añada un «perfil» para un dispositivo nuevo y consulte una vez el nivel de batería durante la carga. chdv trabaja con estos datos para predecir en el futuro cuánto tardará en cargarse la batería. Si tiene más experiencia, también puede indicar la capacidad de la batería y la potencia del cargador para evitar interrupciones y preguntas adicionales.</p><p class="text"></p><p class="text">chdv crea recordatorios para los procesos de carga y, si lo desea, incluso automatizaciones de HomeKit para encender y apagar sus enchufes de forma totalmente automática. Así puede aprovechar mientras duerme la tarifa nocturna más económica o, durante el día, la energía de su instalación fotovoltaica.</p><p class="text"></p><p class="text">No importa lo que quiera cargar, ya sea un móvil, una batería externa, una herramienta, un ciclocomputador, un cepillo de dientes u otro dispositivo: chdv se lo recuerda de forma fiable y automatiza sus enchufes si lo desea.</p><p class="text"></p><p class="text"></p><p class="text"></p><p class="text">Capturas de pantalla:</p><div class="stack-horizontal slideshow" style="overflow-x: auto"><figure><img src="images/chdv_screen_1.jpeg" alt="Captura de pantalla de chdv" width="240" style="border-radius: 8px"><figcaption class="anno"><em>La lista de perfiles</em></figcaption></figure><figure><img src="images/chdv_screen_2.jpeg" alt="Captura de pantalla de chdv" width="240" style="border-radius: 8px"><figcaption class="anno"><em>Iniciar una carga</em></figcaption></figure><figure><img src="images/chdv_screen_3.jpeg" alt="Captura de pantalla de chdv" width="240" style="border-radius: 8px"><figcaption class="anno"><em>Ajustes de un perfil</em></figcaption></figure><figure><img src="images/chdv_screen_4.jpeg" alt="Captura de pantalla de chdv" width="240" style="border-radius: 8px"><figcaption class="anno"><em>Pantalla de ajustes</em></figcaption></figure></div><p class="text align-center"></p><p class="text align-center"></p><p class="text align-center"></p><p class="text align-center"></p><p class="text align-center"></p><p class="text align-center"></p><p class="text align-center"></p><p class="text align-center"></p><p class="text align-center">... y pronto habrá más funciones interesantes. Ya incluye:</p><div class="stack-horizontal" style="overflow-x: auto"><div style="flex:1"></div><div class="stack-vertical"><p class="text">● No requiere conocimientos especializados</p><p class="text">● Configuración sencilla de nuevos perfiles de carga</p><p class="text">● Mejora fácil de los perfiles de carga</p><p class="text">● Recordatorios para el final de la carga</p><p class="text">● Control de enchufes con HomeKit</p><p class="text">● (nueva función secreta 1)</p><p class="text">● (nueva función secreta 2)</p><p class="text">● (nueva función secreta 3)</p><p class="text">● ¡Protección de las baterías y ahorro de dinero!</p></div><div style="flex:1"></div></div><p class="text"></p><p class="text"></p><p class="text"></p><div class="stack-horizontal" style="overflow-x: auto"><div style="flex:1"></div><a href="https://apps.apple.com/es/app/chdv/id1519205967" style="display:flex;flex-direction:column;gap: 8px;align-items:center"><img src="images/download_es.png" alt="" height="40"><p class="text">Download now</p></a><div style="flex:1"></div></div><p class="text" style="min-height: 32px; display:flex;align-items:center;justify-content:center"></p><p class="text align-center"><em>Información sobre privacidad: Este sitio web no utiliza cookies, por lo que tampoco necesita un banner de cookies.</em></p></main></div><script>
+(function(){
+  var panel = document.getElementById('menu-panel');
+  var main = document.getElementById('main');
+  var expandBtn = document.getElementById('expand-btn');
+  var collapseBtn = document.getElementById('collapse-btn');
+  var backdrop = document.getElementById('menu-backdrop');
+  var expanded = false;
+  var mq = window.matchMedia('(max-width: 739px)');
+  var narrow = mq.matches;
+
+  function setWide() {
+    panel.className = 'wide-fixed';
+    main.className = 'wide-fixed';
+  }
+
+  function syncMenuW() {
+    var v = panel.className === 'wide-fixed' ? panel.getBoundingClientRect().width + 'px' : '';
+    document.documentElement.style.setProperty('--menu-w', v);
+  }
+
+  function update() {
+    if (!narrow) {
+      setWide();
+      expandBtn.hidden = true;
+      collapseBtn.hidden = true;
+      backdrop.hidden = true;
+    } else if (!expanded) {
+      panel.className = 'collapsed';
+      main.className = '';
+      expandBtn.hidden = false;
+      collapseBtn.hidden = true;
+      backdrop.hidden = true;
+    } else {
+      panel.className = 'narrow-expanded';
+      main.className = '';
+      expandBtn.hidden = false;
+      collapseBtn.hidden = false;
+      backdrop.hidden = false;
+    }
+    syncMenuW();
+  }
+
+  expandBtn.addEventListener('click', function(){ expanded = true; update(); });
+  collapseBtn.addEventListener('click', function(){ expanded = false; update(); });
+  backdrop.addEventListener('click', function(){ expanded = false; update(); });
+  mq.addEventListener('change', function(e){ narrow = e.matches; if(!narrow) expanded = false; update(); });
+
+  if (window.ResizeObserver) {
+    new ResizeObserver(syncMenuW).observe(panel);
+  } else {
+    window.addEventListener('resize', syncMenuW);
+  }
+
+  update();
+})();
+</script><div id="page-footer" class="stack-horizontal footer-bg" style="position:fixed;left:0;right:0;bottom:0;z-index:100;align-items:center;padding:var(--footer-pad-v,0) var(--footer-pad-h,0)"><a href="es_chdv_dark.html"><p class="lang-other">⚫️</p></a><div style="flex:1"></div><a href="en_chdv_light.html"><p class="lang-other">🇺🇸</p></a><a href="es_chdv_light.html"><p class="lang-other">🇪🇸</p></a><a href="fr_chdv_light.html"><p class="lang-other">🇫🇷</p></a><a href="hi_chdv_light.html"><p class="lang-other">🇮🇳</p></a><a href="de_chdv_light.html"><p class="lang-other">🇩🇪</p></a><a href="zh_chdv_light.html"><p class="lang-other">🇨🇳</p></a><a href="ja_chdv_light.html"><p class="lang-other">🇯🇵</p></a><a href="pt_chdv_light.html"><p class="lang-other">🇵🇹</p></a></div><script>(function(){var h=document.getElementById("page-header"),f=document.getElementById("page-footer"),s=document.body.style;if(h)s.setProperty("--header-h",h.offsetHeight+"px");if(f)s.setProperty("--footer-h",f.offsetHeight+"px");})();</script></body></html>
