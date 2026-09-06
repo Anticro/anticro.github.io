@@ -187,17 +187,17 @@ figure {
 }
 
 .lang-current {
-  padding-top: 0.05ch;
-  padding-right: 1ch;
-  padding-bottom: 0.05ch;
-  padding-left: 1ch;
+  padding-top: 0;
+  padding-right: 0.3ch;
+  padding-bottom: 0;
+  padding-left: 0.3ch;
   background-color: #e0e0e0;
 }
 
 .lang-other {
-  padding-top: 0.05ch;
-  padding-right: 0.5ch;
-  padding-bottom: 0.05ch;
-  padding-left: 0.5ch;
+  padding-top: 0;
+  padding-right: 0.3ch;
+  padding-bottom: 0;
+  padding-left: 0.3ch;
   font-size: 30px;
 }
