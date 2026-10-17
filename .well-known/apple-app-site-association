@@ -5,9 +5,9 @@
       {
         "appID": "27DHVC72SK.com.warptec.devicesCharging",
         "paths": [
-          "/chdv/charge/*",
-          "/chdv/i/*",
-          "/chdv/r/*"
+          "/in/chdv/charge/*",
+          "/in/chdv/i/*",
+          "/in/chdv/r/*"
         ]
       }
     ]
